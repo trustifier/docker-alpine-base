@@ -1,6 +1,6 @@
-[![Docker Stars](https://img.shields.io/docker/stars/evild/alpine-base.svg?style=flat-square)](https://hub.docker.com/r/evild/alpine-base/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/evild/alpine-base.svg?style=flat-square)](https://hub.docker.com/r/evild/alpine-base/)
-[![ImageLayers Size](https://img.shields.io/imagelayers/image-size/evild/alpine-base/latest.svg?style=flat-square)](https://hub.docker.com/r/evild/alpine-base/)
+[![Docker Stars](https://img.shields.io/docker/stars/trustifier/alpine-base.svg?style=flat-square)](https://hub.docker.com/r/trustifier/alpine-base/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/trustifier/alpine-base.svg?style=flat-square)](https://hub.docker.com/r/trustifier/alpine-base/)
+[![ImageLayers Size](https://img.shields.io/imagelayers/image-size/trustifier/alpine-base/latest.svg?style=flat-square)](https://hub.docker.com/r/trustifier/alpine-base/)
 
 # Alpine Base
 
@@ -18,7 +18,7 @@ Alpine Linux is a Linux distribution built around musl libc and BusyBox. The ima
 
 ## Usage
 
-Include `FROM evild/alpine-base` at the top of your Dockerfile. Starting from `evild/alpine-base` provides you with the ability to easily start any service using s6.
+Include `FROM trustifier/alpine-base` at the top of your Dockerfile. Starting from `trustifier/alpine-base` provides you with the ability to easily start any service using s6.
 
 Start service using s6:
 * Create a folder at /etc/services.d/service-name
